@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WinniSteps — Votre installation à Winnipeg, étape par étape</title>
+  <meta name="description" content="WinniSteps vous accompagne dès votre arrivée à Winnipeg : accueil à l'aéroport, démarches administratives, recherche de logement et intégration. Une nouvelle ville, une nouvelle vie, un pas à la fois.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#F3A72D">
+  <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="brand/icon-192.png">
+  <link rel="apple-touch-icon" href="brand/apple-touch-icon.png">
+
+  <!-- Open Graph / Twitter (à compléter avec l'URL absolue du site une fois le domaine connu) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WinniSteps">
+  <meta property="og:title" content="WinniSteps — Une nouvelle ville. Une nouvelle vie. Un pas à la fois.">
+  <meta property="og:description" content="Accompagnement à l'installation à Winnipeg : aéroport, démarches, logement, intégration.">
+  <meta property="og:image" content="winnipeg/museum-winter-sunrise-1400.webp">
+  <meta property="og:locale" content="fr_CA">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="winnipeg/museum-winter-sunrise-2000.webp" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+
+  <!-- Données structurées (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "WinniSteps",
+    "description": "Accompagnement à l'installation des nouveaux arrivants à Winnipeg : accueil à l'aéroport, démarches administratives, logement et intégration.",
+    "telephone": "+1-204-890-2944",
+    "areaServed": { "@type": "City", "name": "Winnipeg" },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Winnipeg",
+      "addressRegion": "MB",
+      "addressCountry": "CA"
+    },
+    "knowsLanguage": "fr"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <div class="hero-slides">
+      <div class="hero-slide is-active" style="background-image:url('winnipeg/museum-winter-sunrise-2000.webp')"></div>
+      <div class="hero-slide" data-bg="winnipeg/skyline-sunset-1920.webp"></div>
+      <div class="hero-slide" data-bg="winnipeg/aerial-summer-2200.webp"></div>
+      <div class="hero-slide" data-bg="winnipeg/legislative-building-2200.webp"></div>
+      <div class="hero-slide" data-bg="winnipeg/snowy-street-1800.webp"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <h1 class="hero-title reveal-hero">
+        <img src="brand/logo-winnisteps.png" alt="WinniSteps" width="800" height="212">
+      </h1>
+      <p class="hero-sub reveal-hero" style="--d:.25s">Une nouvelle ville. Une nouvelle vie. Un pas à la fois.</p>
+
+      <div class="hero-actions reveal-hero" style="--d:.45s">
+        <a href="#essence" class="btn btn-solid btn-lg hero-cta">Découvrir</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BANDEROLE ORANGE — devient le header dès qu'on scrolle ====== -->
+  <nav class="quickbar" id="quickbar" aria-label="Navigation principale">
+    <a href="#essence" class="ql-item"><span class="ql-label">WinniSteps</span><span class="ql-arrow"><i data-lucide="arrow-right"></i></span></a>
+    <a href="#parcours" class="ql-item"><span class="ql-label">Votre parcours</span><span class="ql-arrow"><i data-lucide="arrow-right"></i></span></a>
+    <a href="#formules" class="ql-item"><span class="ql-label">Notre accompagnement</span><span class="ql-arrow"><i data-lucide="arrow-right"></i></span></a>
+    <a href="#winnipeg" class="ql-item"><span class="ql-label">Découvrir Winnipeg</span><span class="ql-arrow"><i data-lucide="arrow-right"></i></span></a>
+    <a href="#contact" class="ql-item ql-item--cta"><span class="ql-label">Nous contacter</span><span class="ql-arrow"><i data-lucide="arrow-right"></i></span></a>
+  </nav>
+
+  <!-- ================= ESSENCE ================= -->
+  <section class="essence" id="essence">
+    <img class="section-mark" src="brand/symbol-900.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <div class="essence-text reveal" data-reveal="left">
+      <span class="eyebrow eyebrow--index"><span class="idx">01</span>WinniSteps</span>
+      <h2 class="section-title">Vos premiers pas à Winnipeg, <em>en toute sérénité.</em></h2>
+      <p>
+        Arriver dans une nouvelle ville, c'est commencer une nouvelle vie.
+        WinniSteps vous accompagne dès votre arrivée à Winnipeg et vous aide à franchir,
+        étape par étape, les démarches essentielles pour vous installer, vous connecter
+        et vous sentir chez vous.
+      </p>
+      <p class="essence-accent">De l'aéroport à votre nouveau logement, nous sommes là pour vous aider à avancer.</p>
+      <a href="#formules" class="link-arrow">Voir notre accompagnement <i data-lucide="arrow-right"></i></a>
+    </div>
+    <div class="essence-media reveal" data-reveal="right">
+      <div class="essence-img" style="background-image:url('formules/formule-silver.webp')"></div>
+      <div class="essence-img" style="background-image:url('formules/formule-diamond.webp')"></div>
+      <span class="media-caption" aria-hidden="true">Dès votre arrivée à l'aéroport</span>
+    </div>
+  </section>
+
+  <!-- ====== VOTRE PARCOURS — les 4 étapes de l'installation ====== -->
+  <section class="stats" id="parcours">
+    <div class="container">
+      <div class="stats-head reveal" data-reveal="up">
+        <span class="eyebrow eyebrow--index"><span class="idx">02</span>Votre parcours</span>
+        <h2 class="section-title">Votre installation, <em>un pas à la fois.</em></h2>
+        <p class="section-lead">Quatre étapes, de l'atterrissage à vos premiers repères dans la ville.</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat reveal" data-reveal="up">
+          <span class="stat-icon"><i data-lucide="plane-landing"></i></span>
+          <span class="stat-num">01</span>
+          <span class="stat-label">Accueil à l'aéroport</span>
+          <p>On vous attend à votre arrivée et on vous conduit jusqu'à votre logement.</p>
+        </div>
+        <div class="stat reveal" data-reveal="up" style="--d:.1s">
+          <span class="stat-icon"><i data-lucide="house"></i></span>
+          <span class="stat-num">02</span>
+          <span class="stat-label">Logement</span>
+          <p>Location Airbnb ou maison clé en main, selon la formule choisie.</p>
+        </div>
+        <div class="stat reveal" data-reveal="up" style="--d:.2s">
+          <span class="stat-icon"><i data-lucide="file-text"></i></span>
+          <span class="stat-num">03</span>
+          <span class="stat-label">Démarches administratives</span>
+          <p>On vous assiste dans les démarches essentielles des premiers jours.</p>
+        </div>
+        <div class="stat reveal" data-reveal="up" style="--d:.3s">
+          <span class="stat-icon"><i data-lucide="users"></i></span>
+          <span class="stat-num">04</span>
+          <span class="stat-label">Intégration</span>
+          <p>On vous présente aux organismes qui vous aideront à bâtir votre nouvelle vie.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== NOTRE ACCOMPAGNEMENT — les 4 formules, en carrousel ====== -->
+  <section class="showcase" id="formules" data-carousel data-carousel-start="2">
+    <div class="showcase-head reveal" data-reveal="up">
+      <span class="eyebrow eyebrow--index"><span class="idx">03</span>Notre accompagnement</span>
+      <h2 class="section-title">Un accompagnement <em>à votre mesure.</em></h2>
+      <p class="section-lead">Quatre formules, de l'essentiel au clé en main. Toutes commencent par un accueil à l'aéroport.</p>
+    </div>
+
+    <div class="carousel">
+      <button class="carousel-ctrl carousel-ctrl--prev" data-carousel-prev aria-label="Formule précédente"><i data-lucide="chevron-left"></i></button>
+
+      <div class="carousel-viewport">
+        <div class="carousel-track" data-carousel-track>
+
+          <article class="carousel-slide formule formule--silver">
+            <div class="formule-media" style="background-image:url('formules/formule-silver.webp')">
+              <span class="formule-kicker">Accompagnement</span>
+            </div>
+            <h3 class="formule-name">Silver</h3>
+            <ul class="formule-list">
+              <li><i data-lucide="check"></i> Accueil et récupération à l'aéroport</li>
+              <li><i data-lucide="check"></i> Assistance aux démarches administratives</li>
+              <li><i data-lucide="check"></i> Présentation à tous les organismes</li>
+              <li><i data-lucide="check"></i> Recherche d'une résidence Airbnb pour location</li>
+            </ul>
+            <span class="formule-price">Tarif sur demande</span>
+            <a href="#contact" class="btn btn-outline" data-formule="Silver">Choisir Silver</a>
+          </article>
+
+          <article class="carousel-slide formule formule--gold">
+            <div class="formule-media" style="background-image:url('formules/formule-gold.webp')">
+              <span class="formule-kicker">Accompagnement</span>
+            </div>
+            <h3 class="formule-name">Gold</h3>
+            <ul class="formule-list">
+              <li><i data-lucide="check"></i> Accueil et récupération à l'aéroport</li>
+              <li><i data-lucide="check"></i> Assistance aux démarches administratives</li>
+              <li><i data-lucide="check"></i> Présentation à tous les organismes</li>
+              <li><i data-lucide="check"></i> Recherche de maison clé en main (sans équipements)</li>
+            </ul>
+            <span class="formule-price">Tarif sur demande</span>
+            <a href="#contact" class="btn btn-outline" data-formule="Gold">Choisir Gold</a>
+          </article>
+
+          <article class="carousel-slide formule formule--platinum formule--featured">
+            <span class="formule-badge"><i data-lucide="star"></i> Recommandée</span>
+            <div class="formule-media" style="background-image:url('formules/formule-platinum.webp')">
+              <span class="formule-kicker">Accompagnement</span>
+            </div>
+            <h3 class="formule-name">Platinum</h3>
+            <ul class="formule-list">
+              <li><i data-lucide="check"></i> Accueil et récupération à l'aéroport</li>
+              <li><i data-lucide="check"></i> Assistance aux démarches administratives</li>
+              <li><i data-lucide="check"></i> Présentation à tous les organismes</li>
+              <li><i data-lucide="check"></i> Maison clé en main, entièrement équipée (meubles, lits, ustensiles de cuisine)</li>
+              <li><i data-lucide="check"></i> Achat d'une voiture</li>
+            </ul>
+            <span class="formule-price">Tarif sur demande</span>
+            <a href="#contact" class="btn btn-solid" data-formule="Platinum">Choisir Platinum</a>
+          </article>
+
+          <article class="carousel-slide formule formule--diamond">
+            <div class="formule-media" style="background-image:url('formules/formule-diamond.webp')">
+              <span class="formule-kicker">Accompagnement</span>
+            </div>
+            <h3 class="formule-name">Diamond</h3>
+            <ul class="formule-list">
+              <li><i data-lucide="check"></i> Accueil et récupération à l'aéroport</li>
+              <li><i data-lucide="check"></i> Assistance aux démarches administratives</li>
+              <li><i data-lucide="check"></i> Présentation à tous les organismes</li>
+              <li><i data-lucide="check"></i> Maison clé en main, entièrement équipée (meubles, lits, ustensiles de cuisine)</li>
+            </ul>
+            <span class="formule-price">Tarif sur demande</span>
+            <a href="#contact" class="btn btn-outline" data-formule="Diamond">Choisir Diamond</a>
+          </article>
+
+        </div>
+      </div>
+
+      <button class="carousel-ctrl carousel-ctrl--next" data-carousel-next aria-label="Formule suivante"><i data-lucide="chevron-right"></i></button>
+    </div>
+
+    <div class="carousel-dots" data-carousel-dots></div>
+  </section>
+  <!-- ====== DÉCOUVRIR WINNIPEG — mosaïque de photos ====== -->
+  <section class="winnipeg" id="winnipeg">
+    <div class="container">
+      <div class="winnipeg-head reveal" data-reveal="up">
+        <span class="eyebrow eyebrow--index"><span class="idx">04</span>Découvrir Winnipeg</span>
+        <h2 class="section-title">Votre nouvelle <em>ville.</em></h2>
+        <p class="section-lead">Capitale du Manitoba, au confluent des rivières Rouge et Assiniboine. Quelques repères pour vous sentir chez vous plus vite.</p>
+      </div>
+
+      <div class="mosaic">
+
+        <figure class="tile tile--lg reveal" data-reveal="up">
+          <img src="winnipeg/legislative-building-1400.webp"
+               srcset="winnipeg/legislative-building-800.webp 800w, winnipeg/legislative-building-1400.webp 1400w, winnipeg/legislative-building-2200.webp 2200w"
+               sizes="(max-width:600px) 100vw, 50vw"
+               data-full="winnipeg/legislative-building-2200.webp"
+               alt="Le Palais législatif du Manitoba et ses jardins" loading="lazy" decoding="async">
+          <figcaption>
+            <span class="tile-icon"><i data-lucide="landmark"></i></span>
+            <h3>Le Palais législatif</h3>
+            <p>Siège du gouvernement du Manitoba, coiffé de sa célèbre statue dorée, le Golden Boy. Ses jardins sont un lieu de promenade prisé.</p>
+          </figcaption>
+          <button class="tile-btn" aria-label="Agrandir la photo : Le Palais législatif"><span class="tile-zoom"><i data-lucide="maximize-2"></i></span></button>
+        </figure>
+
+        <figure class="tile tile--wide reveal" data-reveal="up" style="--d:.08s">
+          <img src="winnipeg/museum-winter-sunrise-1400.webp"
+               srcset="winnipeg/museum-winter-sunrise-800.webp 800w, winnipeg/museum-winter-sunrise-1400.webp 1400w, winnipeg/museum-winter-sunrise-2000.webp 2000w"
+               sizes="(max-width:600px) 100vw, 50vw"
+               data-full="winnipeg/museum-winter-sunrise-2000.webp"
+               alt="Le Musée canadien pour les droits de la personne au lever du jour" loading="lazy" decoding="async">
+          <figcaption>
+            <span class="tile-icon"><i data-lucide="scale"></i></span>
+            <h3>Le Musée des droits de la personne</h3>
+            <p>Reconnaissable à sa tour de verre, il domine le quartier de La Fourche.</p>
+          </figcaption>
+          <button class="tile-btn" aria-label="Agrandir la photo : Le Musée des droits de la personne"><span class="tile-zoom"><i data-lucide="maximize-2"></i></span></button>
+        </figure>
+
+        <figure class="tile tile--sm reveal" data-reveal="up" style="--d:.16s">
+          <img src="winnipeg/bridge-dusk-900.webp"
+               srcset="winnipeg/bridge-dusk-600.webp 600w, winnipeg/bridge-dusk-900.webp 900w"
+               sizes="(max-width:600px) 100vw, 25vw"
+               data-full="winnipeg/bridge-dusk-900.webp"
+               alt="L'Esplanade Riel au crépuscule" loading="lazy" decoding="async">
+          <figcaption>
+            <span class="tile-icon"><i data-lucide="map-pin"></i></span>
+            <h3>Saint-Boniface</h3>
+            <p>Le quartier francophone, relié au centre-ville par l'Esplanade Riel.</p>
+          </figcaption>
+          <button class="tile-btn" aria-label="Agrandir la photo : Saint-Boniface"><span class="tile-zoom"><i data-lucide="maximize-2"></i></span></button>
+        </figure>
+
+        <figure class="tile tile--sm reveal" data-reveal="up" style="--d:.24s">
+          <img src="winnipeg/skaters-portrait-960.webp"
+               srcset="winnipeg/skaters-portrait-640.webp 640w, winnipeg/skaters-portrait-960.webp 960w"
+               sizes="(max-width:600px) 100vw, 25vw"
+               data-full="winnipeg/skaters-portrait-960.webp"
+               alt="Patineurs sur la rivière gelée" loading="lazy" decoding="async">
+          <figcaption>
+            <span class="tile-icon"><i data-lucide="snowflake"></i></span>
+            <h3>L'hiver, version Winnipeg</h3>
+            <p>Patinoires sur les rivières gelées, sentiers enneigés, festivals.</p>
+          </figcaption>
+          <button class="tile-btn" aria-label="Agrandir la photo : L'hiver, version Winnipeg"><span class="tile-zoom"><i data-lucide="maximize-2"></i></span></button>
+        </figure>
+
+        <figure class="tile tile--lg reveal" data-reveal="up" style="--d:.32s">
+          <img src="winnipeg/downtown-summer-1600.webp"
+               srcset="winnipeg/downtown-summer-900.webp 900w, winnipeg/downtown-summer-1600.webp 1600w"
+               sizes="(max-width:600px) 100vw, 50vw"
+               data-full="winnipeg/downtown-summer-1600.webp"
+               alt="Le centre-ville de Winnipeg en été" loading="lazy" decoding="async">
+          <figcaption>
+            <span class="tile-icon"><i data-lucide="building-2"></i></span>
+            <h3>Le centre-ville</h3>
+            <p>Bureaux, services, commerces et espaces verts : le cœur actif de la ville, à découvrir dès vos premières semaines.</p>
+          </figcaption>
+          <button class="tile-btn" aria-label="Agrandir la photo : Le centre-ville"><span class="tile-zoom"><i data-lucide="maximize-2"></i></span></button>
+        </figure>
+
+        <figure class="tile tile--lg reveal" data-reveal="up" style="--d:.4s">
+          <img src="winnipeg/assiniboine-winter-1600.webp"
+               srcset="winnipeg/assiniboine-winter-900.webp 900w, winnipeg/assiniboine-winter-1600.webp 1600w"
+               sizes="(max-width:600px) 100vw, 50vw"
+               data-full="winnipeg/assiniboine-winter-1600.webp"
+               alt="La rivière Assiniboine en hiver" loading="lazy" decoding="async">
+          <figcaption>
+            <span class="tile-icon"><i data-lucide="waves"></i></span>
+            <h3>Les deux rivières</h3>
+            <p>La Rouge et l'Assiniboine se rejoignent à La Fourche : promenades, marchés et quais au fil des saisons.</p>
+          </figcaption>
+          <button class="tile-btn" aria-label="Agrandir la photo : Les deux rivières"><span class="tile-zoom"><i data-lucide="maximize-2"></i></span></button>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TÉMOIGNAGES + CONTACT ============ -->
+  <section class="closing" id="contact">
+    <!-- Témoignages : textes d'EXEMPLE à remplacer par de vrais avis clients avant la mise en ligne (js/script.js) -->
+    <div class="testimonial reveal" data-reveal="left" id="temoignages">
+      <span class="eyebrow eyebrow--index"><span class="idx">05</span>Témoignages</span>
+      <div class="quote-wrap">
+        <span class="quote-mark">&ldquo;</span>
+        <blockquote id="quoteText">Accueillie en plein janvier, je ne me suis jamais sentie seule.</blockquote>
+      </div>
+      <div class="testimonial-foot">
+        <div class="author">
+          <span class="author-avatar" id="quoteInitials" aria-hidden="true">AK</span>
+          <div>
+            <span class="author-name" id="quoteAuthor">Aminata K.</span>
+            <span class="author-date" id="quoteDate">Arrivée de Dakar · Formule Gold</span>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button id="quotePrev" aria-label="Témoignage précédent"><i data-lucide="chevron-left"></i></button>
+          <button id="quoteNext" aria-label="Témoignage suivant"><i data-lucide="chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="booking" style="background-image:url('winnipeg/winter-sun-river-1100.webp')">
+      <div class="booking-overlay"></div>
+      <div class="booking-content reveal" data-reveal="right">
+        <span class="eyebrow eyebrow--index"><span class="idx">06</span>Préparons votre arrivée</span>
+        <h2 class="booking-title">Votre nouvelle vie <em>commence ici.</em></h2>
+        <p>Parlez-nous de votre projet d'installation à Winnipeg : un conseiller WinniSteps vous répond rapidement sur WhatsApp.</p>
+
+        <form class="booking-form" id="contactForm" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="name"><i data-lucide="user"></i> Nom complet *</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Ex. Aminata Koné" required>
+            </div>
+            <div class="field">
+              <label for="phone"><i data-lucide="phone"></i> Téléphone / WhatsApp *</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+225 07 00 00 00 00" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="country"><i data-lucide="globe"></i> Pays de départ</label>
+              <input type="text" id="country" name="country" autocomplete="country-name" placeholder="Ex. Côte d'Ivoire">
+            </div>
+            <div class="field">
+              <label for="status"><i data-lucide="id-card"></i> Votre statut</label>
+              <select id="status" name="status">
+                <option>Résident permanent</option>
+                <option>Permis d'études</option>
+                <option>Permis de travail</option>
+                <option>Autre</option>
+              </select>
+            </div>
+          </div>
+          <div class="field-row field-row--3">
+            <div class="field">
+              <label for="arrival"><i data-lucide="plane-landing"></i> Arrivée prévue</label>
+              <input type="date" id="arrival" name="arrival">
+            </div>
+            <div class="field">
+              <label for="people"><i data-lucide="users"></i> Personnes</label>
+              <select id="people" name="people">
+                <option>1 personne</option>
+                <option selected>2 personnes</option>
+                <option>3 personnes</option>
+                <option>4 personnes</option>
+                <option>5 personnes ou plus</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="formule"><i data-lucide="award"></i> Formule</label>
+              <select id="formule" name="formule">
+                <option>Silver</option>
+                <option>Gold</option>
+                <option selected>Platinum</option>
+                <option>Diamond</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message"><i data-lucide="message-square"></i> Votre message</label>
+            <textarea id="message" name="message" rows="3" placeholder="Besoins particuliers, questions sur le logement, les démarches…"></textarea>
+          </div>
+          <p class="form-error" id="formError" role="alert" hidden></p>
+          <button type="submit" class="btn btn-solid btn-book"><i data-lucide="send"></i> Envoyer</button>
+          <p class="form-note">* Champs obligatoires</p>
+        </form>
+        <p class="booking-reassure"><i data-lucide="phone"></i> Ou appelez-nous : <a href="tel:+12048902944">+1 (204) 890-2944</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#hero" class="brand" aria-label="WinniSteps — accueil">
+          <img src="brand/logo-winnisteps.png" alt="WinniSteps" class="brand-logo" loading="lazy" decoding="async" width="800" height="212">
+        </a>
+        <p class="footer-tag">Une nouvelle ville. Une nouvelle vie.<br>Un pas à la fois.</p>
+      </div>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Liens rapides</h2>
+        <a href="#essence">WinniSteps</a>
+        <a href="#parcours">Votre parcours</a>
+        <a href="#formules">Notre accompagnement</a>
+        <a href="#winnipeg">Découvrir Winnipeg</a>
+        <a href="#temoignages">Témoignages</a>
+      </div>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Contact</h2>
+        <a href="tel:+12048902944"><i data-lucide="phone"></i> +1 (204) 890-2944</a>
+        <a href="https://wa.me/12048902944" target="_blank" rel="noopener"><svg class="brand-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> WhatsApp</a>
+        <p class="footer-contact"><i data-lucide="map-pin"></i> Winnipeg, Manitoba, Canada</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>&copy; <span id="year">2026</span> WinniSteps. Tous droits réservés.</span>
+    </div>
+  </footer>
+
+  <!-- ====== VISIONNEUSE PHOTO (mosaïque Winnipeg) ====== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo en grand" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Fermer"><i data-lucide="x"></i></button>
+    <button class="lb-nav lb-nav--prev" id="lbPrev" aria-label="Photo précédente"><i data-lucide="chevron-left"></i></button>
+    <figure class="lb-figure">
+      <img id="lbImage" src="" alt="">
+      <figcaption>
+        <h3 id="lbTitle"></h3>
+        <p id="lbText"></p>
+        <span class="lb-count" id="lbCount"></span>
+      </figcaption>
+    </figure>
+    <button class="lb-nav lb-nav--next" id="lbNext" aria-label="Photo suivante"><i data-lucide="chevron-right"></i></button>
+  </div>
+
+  <!-- CTA flottant (mobile) -->
+  <div class="sticky-cta">
+    <a href="#contact" class="btn btn-solid"><i data-lucide="message-circle"></i> Préparer mon arrivée</a>
+  </div>
+
+  <script defer src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+  <script defer src="js/script.js?v=2"></script>
+</body>
+</html>
