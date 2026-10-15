@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // Navigation mobile : synchronise l’état du bouton et du panneau pour les interactions tactiles et clavier.
+=======
+>>>>>>> 50b6ae592392fdeca0bb8f5472b33a0b3365fddc
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
 
@@ -15,6 +18,7 @@ nav.querySelectorAll('a').forEach((link) => {
   });
 });
 
+<<<<<<< HEAD
 // Dictionnaire d’interface : conserver les mêmes clés dans les deux langues facilite toute évolution de contenu.
 const siteCopy = {
   fr: {
@@ -327,6 +331,8 @@ try {
 }
 
 // Carrousel du bandeau : une sélection manuelle et la lecture automatique partagent le même index actif.
+=======
+>>>>>>> 50b6ae592392fdeca0bb8f5472b33a0b3365fddc
 const heroSlides = [...document.querySelectorAll('.hero-slide')];
 const heroDots = [...document.querySelectorAll('.hero-dot')];
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -334,7 +340,10 @@ let activeHeroSlide = 0;
 let heroTimer;
 
 function showHeroSlide(index) {
+<<<<<<< HEAD
   // Maintient l’image visible, l’indicateur actif et l’état accessible aria-pressed en cohérence.
+=======
+>>>>>>> 50b6ae592392fdeca0bb8f5472b33a0b3365fddc
   activeHeroSlide = index;
   heroSlides.forEach((slide, slideIndex) => {
     slide.classList.toggle('is-active', slideIndex === index);
@@ -347,7 +356,10 @@ function showHeroSlide(index) {
 }
 
 function restartHeroTimer() {
+<<<<<<< HEAD
   // Redémarre le cycle après une action utilisateur et désactive l’auto-défilement si le mouvement est réduit.
+=======
+>>>>>>> 50b6ae592392fdeca0bb8f5472b33a0b3365fddc
   window.clearInterval(heroTimer);
   if (!reduceMotion) {
     heroTimer = window.setInterval(() => {
@@ -364,13 +376,17 @@ heroDots.forEach((dot, index) => {
 });
 restartHeroTimer();
 
+<<<<<<< HEAD
 // Préremplit le formulaire avec le forfait sélectionné pour éviter une ressaisie.
+=======
+>>>>>>> 50b6ae592392fdeca0bb8f5472b33a0b3365fddc
 document.querySelectorAll('[data-plan]').forEach((link) => {
   link.addEventListener('click', () => {
     document.querySelector('#planSelect').value = link.dataset.plan;
   });
 });
 
+<<<<<<< HEAD
 // Compose le message dans la langue active; l’utilisateur garde le contrôle de l’envoi depuis WhatsApp.
 document.querySelector('#contactForm').addEventListener('submit', (event) => {
   event.preventDefault();
@@ -387,6 +403,22 @@ document.querySelector('#contactForm').addEventListener('submit', (event) => {
     `${labels[6]} : ${form.get('people')}`,
     `${labels[7]} : ${form.get('plan')}`,
     form.get('message') && `${labels[8]} : ${form.get('message')}`,
+=======
+document.querySelector('#contactForm').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const form = new FormData(event.currentTarget);
+  const details = [
+    'Bonjour WinniSteps, j’aimerais parler de mon installation à Winnipeg.',
+    '',
+    `Nom : ${form.get('name')}`,
+    `Téléphone / WhatsApp : ${form.get('phone')}`,
+    form.get('country') && `Pays de départ : ${form.get('country')}`,
+    `Statut : ${form.get('status')}`,
+    form.get('arrival') && `Arrivée prévue : ${form.get('arrival')}`,
+    `Personnes : ${form.get('people')}`,
+    `Formule : ${form.get('plan')}`,
+    form.get('message') && `Message : ${form.get('message')}`,
+>>>>>>> 50b6ae592392fdeca0bb8f5472b33a0b3365fddc
   ].filter(Boolean).join('\n');
   window.open(`https://wa.me/12048902944?text=${encodeURIComponent(details)}`, '_blank', 'noopener,noreferrer');
 });
